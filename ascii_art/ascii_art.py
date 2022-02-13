@@ -14,6 +14,7 @@ def setup_video_capture(height=480, width=640, fps=30) -> cv2.VideoCapture:
     Args:
         height (int, optional): Height of the video display. Defaults to 720.
         width (int, optional): Width of the video display. Defaults to 960.
+        fps (int, optional): Limit FPS of video stream. Defaults to 30.
 
     Returns:
         cv2.VideoCapture: Instance of cv2.VideoCapture
