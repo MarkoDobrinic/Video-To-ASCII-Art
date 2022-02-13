@@ -134,7 +134,3 @@ def map_ascii_characters(
         img = cv2.putText(img, char, (0, 11), cv2.FONT_HERSHEY_SIMPLEX, 0.7, 255)
         imgs.append(img)
     return np.stack(imgs)
-
-
-if __name__ == "__main__":
-    display_ascii_video(letter_width=4, letter_height=3, canny_edge=True)
